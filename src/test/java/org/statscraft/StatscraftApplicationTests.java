@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2016 StatsCraft Authors and Contributors.
+ */
+
 package org.statscraft;
 
 import org.junit.Test;
