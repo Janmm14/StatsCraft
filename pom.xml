@@ -2,7 +2,6 @@
 <!--
   ~ Copyright (c) 2016 StatsCraft Authors and Contributors.
   -->
-
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -17,21 +16,34 @@
     <description>StatsCraft main project</description>
     <url>http://statscraft.org</url>
     <inceptionYear>2016</inceptionYear>
-    <issueManagement>
-        <system>GitHub</system>
-        <url>https://github.com/StatsCraft-MC/StatsCraft/issues</url>
-    </issueManagement>
-    <scm>git</scm>
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>https://opensource.org/licenses/MIT</url>
-        </license>
-    </licenses>
+
     <organization>
         <name>StatsCraft-MC</name>
         <url>https://github.com/StatsCraft-MC/</url>
     </organization>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/StatsCraft-MC/StatsCraft.git</connection>
+        <developerConnection>scm:git:git@github.com:StatsCraft-MC/StatsCraft.git</developerConnection>
+        <url>https://github.com/StatsCraft-MC/StatsCraft</url>
+    </scm>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/StatsCraft-MC/StatsCraft/issues</url>
+    </issueManagement>
+    <!-- Coming soon...
+    <ciManagement>
+        <system>jenkins</system>
+        <url>http://ci.statscraft.org/job/Statscraft/</url>
+    </ciManagement>
+    -->
 
     <parent>
         <groupId>org.springframework.boot</groupId>
