@@ -23,6 +23,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
     // Use this guide to configure this to require role USER for authentication-requiring pages.
     // http://docs.spring.io/spring-security/site/docs/current/guides/html5//helloworld-boot.html
     @Override protected void configure(HttpSecurity http) throws Exception {
+        http.csrf().disable();
         http.authorizeRequests().anyRequest().permitAll();
     }
 
